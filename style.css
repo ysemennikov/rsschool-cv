@@ -17,8 +17,25 @@ body, html {
 }
 
 header {
-    height: 20vh;
+    height: 100px;
+    padding: 10px 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.titlebox {
+    margin-left: 40px;
+}
+
+.subtitle {
+    font-weight: 300;
 }
 
 main {
