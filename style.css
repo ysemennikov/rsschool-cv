@@ -1,4 +1,30 @@
-p, h1, h2, h3, h4, h5, h6 {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 100%;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+}
+
+main {
+    display: flex;
+    min-height: 60vh;
+}
+
+footer {
+    height: 20vh;
 }
