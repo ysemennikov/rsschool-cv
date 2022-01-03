@@ -14,14 +14,91 @@
         <header>
             <img class="avatar" src="assets/img/photo.jpg" alt="My photo">
             <div class="titlebox">
-                <h1>Iaroslav Semennikov</h1>
+                <h1>Yaroslav Semennikov</h1>
                 <h2>CV</h2>
             </div>
         </header>
         <main>
-            <nav></nav>
+            <nav>
+                <ul class="section-list">
+                    <li class="section-item"><a href="#contacts">Contacts</a></li>
+                    <li class="section-item"><a href="#summary">Summary</a></li>
+                    <li class="section-item"><a href="#skills">Skills</a></li>
+                    <li class="section-item"><a href="#projects">Work Experience and Projects</a></li>
+                    <li class="section-item"><a href="#education">Education</a></li>
+                    <li class="section-item"><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
             <div class="content">
-                <p>main</p>
+                <section id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-item contacts location">Russia</li>
+                        <li class="section-item contacts telegram">Telegram: <a href="https://t.me/ysemennikov" target="blank">@ysemennikov</a></li>
+                        <li class="section-item contacts discord">Discord: <a href="https://discordapp.com/users/ysemennikov#9996/" target="blank">@ysemennikov#9996</a></li>
+                        <li class="section-item contacts github">GitHub: <a href="https://github.com/ysemennikov" target="blank">@ysemennikov</a></li>
+                        <li class="section-item contacts email">Email: <a href="mailto:embrane@ya.ru" target="blank">embrane@ya.ru</a></li>
+                    </ul>
+                </section>
+                <section id="summary">
+                    <h2>Summary</h2>
+                    <p>
+                        I am keen on programming. Currently I am developing in
+                        the field of web development. In 2019, I interned at
+                        Movavi Software, worked on the revision of the corporate
+                        web portal. Now I am creating a web service
+                        <a href="https://devifex.com" target="blank">devifex.com</a> (currently
+                        in development, you can follow here:
+                        <a href="https://instagram.com/devifex" target="blank">instagram.com/devifex</a>).
+                    </p>
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Web-Development: HTML, CSS, Javascript</li>
+                        <li class="section-item">Frameworks: Django, Flask</li>
+                        <li class="section-item">VCS: Git, Github, Bitbucket</li>
+                        <li class="section-item">Graphics: Photoshop, Figma, Zeplin</li>
+                    </ul>
+                </section>
+                <section id="code">
+                    <h2>Code</h2>
+                    <code>
+                        text = list(input('Введите текст:    '))<br>
+                        codeWord1 = list(input('Введите кодовое слово:    '))<br>
+                        codeWord = []<br><br>
+                        while len(text) > len(codeWord1):<br>
+                            &emsp;&emsp;codeWord1.extend(codeWord1)<br>
+                        for i in codeWord1:<br>
+                            &emsp;&emsp;if len(text) > len(codeWord):<br>
+                                &emsp;&emsp;&emsp;&emsp;codeWord.append(i)<br>
+                        for i in text:<br>
+                            &emsp;&emsp;text[text.index(i)] = chr(ord(text[text.index(i)]) + ord(codeWord[text.index(i)]))<br><br>
+                        print('Зашифрованный текст:', ''.join(text))
+                    </code>
+                </section>
+                <section id="projects">
+                    <h2>Work Experience and Projects</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Trainee Fullstack Web Developer, Movavi Software, 2019</li>
+                        <li class="section-item"><a href="http://tbu.su" target="blank">tbu.su</a>, 2020</li>
+                        <li class="section-item"><a href="http://битум-сервис.рф" target="blank">битум-сервис.рф</a>, 2020</li>
+                    </ul>
+                </section>
+                <section id="education">
+                    <h2>Education</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Gymnasium №1, Novosibirsk, Russia</li>
+                    </ul>
+                </section>
+                <section id="Languages">
+                    <h2>Languages</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Russian: Native</li>
+                        <li class="section-item">English: C1 (IELTS 7.0)</li>
+                        <li class="section-item">German: C1 (DSD II)</li>
+                    </ul>
+                </section>
             </div>
         </main>
         <footer>
