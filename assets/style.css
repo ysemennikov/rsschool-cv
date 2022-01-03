@@ -110,5 +110,10 @@ section + section {
 }
 
 footer {
-    height: 20vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer.course-link {
+    height: 48px;
 }
